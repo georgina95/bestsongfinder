@@ -5,12 +5,19 @@ Osztályok
 
 Store:
 		albums:	Array<Album>
+	
 	o	Constructor():	Store
+	
 	o	addAlbum(Obj)
+	
 	o	formatJSON(JsonObj inputAlbum):	Album
+	
 	o	checkInput(JsonObj inputAlbum):	?Error
+	
 	o	getAll()	Array<Album>
+	
 	o	getBestOf(Int id, Int number):	String
+	
 	o	getAlbum(Int id):	Album
 
 Album:
